@@ -1,0 +1,8 @@
+POST localhost:8000/generate_audio
+content-type: application/json
+
+{
+    "request_id": "1234",
+    "text": "Hello, world!",
+    "language": "en"
+}
